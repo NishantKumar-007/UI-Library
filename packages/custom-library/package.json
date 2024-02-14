@@ -1,0 +1,23 @@
+{
+  "name": "custom-library",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "NishantKumar-007 <ursnishant4u@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "type": "module",
+  "main": "lib/custom-library.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/custom-library.test.js"
+  },
+  "dependencies": {
+    "snabbdom": "^3.6.2"
+  }
+}
